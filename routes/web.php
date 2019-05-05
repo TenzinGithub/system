@@ -15,9 +15,14 @@ Route::get('/', function () {
     return view('template.master');
 });
 
+
+Route::get('/table', function () {
+    return view('table');
+});
+
 Route::get('about',[
     'as' => 'about', 
-'uses' => 'PagesController@getAbout'
+    'uses' => 'PagesController@getAbout'
 ]);
 
 

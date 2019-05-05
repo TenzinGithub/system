@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-@include('template.sub-template.head')
+ @include('template.sub-template.head')
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
 @include('template.sub-template.header')
@@ -22,7 +22,7 @@
 
     <!-- Main content -->
 	@yield('header')
-	@yeild('content')
+	@yield('content')
   <!-- /.control-sidebar -->
   <!-- Add the sidebar's background. This div must be placed
        immediately after the control sidebar -->
